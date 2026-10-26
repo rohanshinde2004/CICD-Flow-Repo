@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+# CICD-Flow-Repo
+Practice-repository
+
 # Jenkins Upstream / Downstream Demo
 
 A small Java + Maven project for learning how separate Jenkins jobs run in order.
@@ -127,7 +129,3 @@ If a job fails, the downstream job configured to run only after a stable upstrea
 4. Open each job's **Console Output** to see the command and result.
 5. If your Jenkins agent is Linux, use shell build steps. If it is Windows, use Windows batch or PowerShell steps.
 6. This setup demonstrates upstream/downstream triggers, but each job performs a fresh checkout and Maven may repeat work. In a production pipeline, a Jenkins Pipeline and archived artifacts are often easier to maintain.
-=======
-# CICD-Flow-Repo
-Practice-repository
->>>>>>> 6878c2c4c6a0e043f0b37f328b6d4ec1c9a98c74
